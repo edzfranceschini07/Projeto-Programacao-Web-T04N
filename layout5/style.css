@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+}
+
+.container {
+    width: 90%; 
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 2px solid blue;
+    padding: 15px;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+}
+
+.text {
+    flex: 1;
+}

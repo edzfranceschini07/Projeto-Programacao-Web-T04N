@@ -1,0 +1,57 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    height: 100vh;
+    padding: 10px;
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    height: 100%;
+    gap: 10px; /* espaço entre colunas */
+}
+
+/* Lado esquerdo */
+.left {
+    flex: 2;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Lado direito */
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Topo */
+.top {
+    flex: 1;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Baixo */
+.bottom {
+    flex: 1;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
